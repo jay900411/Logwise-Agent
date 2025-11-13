@@ -1,0 +1,16 @@
+# requirements.txt
+
+# WebUI Framework
+streamlit
+
+# Web Server (Runner Agent)
+flask
+
+# Shell Control (The core of the Runner Agent)
+pexpect
+
+# HTTP Client (Used by core.py to talk to both Flask and Ollama)
+requests
+
+# Note: The 'uuid' module, if you implement the security fix, is a standard Python library 
+# and does not need to be listed here.
